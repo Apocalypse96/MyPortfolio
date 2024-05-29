@@ -4,7 +4,7 @@ function Home(){
     return(
         <div>
             <NavBar />
-            <div class="home">
+            <div class="home" id='home'>
                 <div class="home-info">
                     <div class="home-zoom">
                         <div class="home-img">

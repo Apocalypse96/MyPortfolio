@@ -1,8 +1,11 @@
 import './Skills.css';
+import React from 'react';
+
 function Skills(){
     return(
         <div class="skills" id='skills'>
             <div class="skill-title">
+                <img class="pixelo" src='https://res.cloudinary.com/dhry5xscm/image/upload/v1705177410/nits-hacks-6.0/barnil_gh48ld.gif'></img>
                 <h1>Skills</h1>
             </div>
             <div class="skill-det">
@@ -77,9 +80,7 @@ function Skills(){
                     </div>
                 </div>
             </div>
-            <div>
-                <p>Still a lot to learn</p>
-            </div>
+
         </div>
     )
 }

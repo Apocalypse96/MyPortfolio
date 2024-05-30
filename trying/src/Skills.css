@@ -1,123 +1,12 @@
-/* *{
-    padding: 0;
-    margin: 0;
-}
-.skills{
-    height: 100vh;
-    background-image: url('https://www.tecnoesis.co.in/images/homebg.jpeg');
-    background-size: cover;
-    margin-top: -12px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-.skill-title{
-    height: 10%;
-
-}
-
-.skills h1{
-    color: whitesmoke;
-    background-image: linear-gradient(180deg, #ff0101, #f000);
-    text-align: center;
-    padding-top: 30px;
-    font-size: 5rem;
-    font-size: 700;
-    font-family: 'Silkscreen', sans-serif;
-    background-clip: text;
-    -webkit-text-stroke: 0.7rem transparent;
-}
-
-.content{
-    width: 100%;
-    height: 100%;
-}
-
-
-.skill-det{
-    margin-top: -12px;
-    height: 90%;
-    width: 100%;
-    background-image: url('https://res.cloudinary.com/dhgfsshq4/image/upload/v1705431199/hacks%206.0/Group_5252_1_p3s348.webp');
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-size: cover;
-}
-
-.slider{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-    margin-top: 200px;
-
-}
-
-.slide{
-    background-color: #212121; 
-    box-shadow: rgba(245, 101, 57, 0.3) 0px 0px 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 30px;
-    padding: 40px 20px;
-    border-radius: 8px;
-}  
-.slide-track{
-    display: flex;
-    width: 100%;
-    animation: scroll 18s linear infinite forwards;
-
-}
-
-.slide-track:hover{
-    animation-play-state: paused;
-    
-}
-
-.slide:hover{
-    padding: 46px 26px;
-    transition: 0.5s ease-in-out;
-}
-
-@keyframes scroll{
-    0%{
-        transform: translateX(0%);
-    }
-    100%{
-        transform: translateX(-100%);
-    }
-}
-.logo{
-    width: 100px;
-    height: 50px;
-    margin: 15px;
-
-}
-
-h3{
-    color: whitesmoke;
-    font-size: 1.5rem;
-    font-weight: 500;
-    font-family: 'Silkscreen', sans-serif;
-    background-clip: text;
-    -webkit-text-stroke: 0.7rem transparent;
-} */
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 .skills {
-    height: 100vh;
+    height: 120vh;
     background-image: url('https://www.tecnoesis.co.in/images/homebg.jpeg');
+    /* background-image: url('https://www.tecnoesis.co.in/home_bg_desk.gif'); */
     background-size: cover;
     margin-top: -12px;
     display: flex;
@@ -128,19 +17,30 @@ h3{
     overflow: hidden;
 }
 .skill-title {
-    height: 10%;
-}
+    height: 25%;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/dagggqd6g/image/upload/f_auto,q_auto/yhxzsczvtrg7anfokt3k');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
 .skills h1 {
     color: whitesmoke;
     background-image: linear-gradient(180deg, #ff0101, #f000);
     text-align: center;
     padding-top: 30px;
-    font-size: 5rem;
+    font-size: 5.5rem;
     font-weight: 700;
-    font-family: 'Silkscreen', sans-serif;
+    /* font-family: 'Silkscreen', sans-serif; */
+    font-family: "Rubik Pixels", system-ui;
     background-clip: text;
     -webkit-text-stroke: 0.7rem transparent;
     text-shadow: 2px 2px #000;
+}
+
+.pixelo{
+    margin-right: -150px;
 }
 .content {
     width: 100%;

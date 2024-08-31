@@ -16,8 +16,9 @@ function Home(){
                     </div>
 
                     <p>
-                        A Noob Developer having an experience Web Development, CLI, GIT 
-                        and want to develop sustainable and scalable social and technical systems to create impact which i will never make who makes nowadays.
+                    As a second-year tech enthusiast, I'm passionate about bringing ideas to life through full-stack development. 
+                    With a growing portfolio of diverse projects, I'm committed to turning theory into practice.
+                    Eager to explore new challenges, I thrive on innovation and am excited to contribute to cutting-edge solutions that make an impact.
                     </p>
                     <div class="home-opprock">
                         <img src='https://res.cloudinary.com/dhgfsshq4/image/upload/v1705439619/hacks%206.0/Group_5254_d7rqob.webp'></img>
